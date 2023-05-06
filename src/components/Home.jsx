@@ -1,8 +1,9 @@
 import React from 'react'
+import { Container } from 'react-bootstrap'
 
 const Home = () => {
   return (
-    <div className='container container-fluid text-center m-5'>
+    <Container  className='m-5 p-5 text-center' fluid style={{width:"90vw"}}>
         <h1 className='fs-1'>EQUIPO 3</h1>
         <ul className='list-group list-group-flush'>
            <li className='list-group-item'>Anabela Soledad Barboza</li> 
@@ -12,7 +13,7 @@ const Home = () => {
            <li className='list-group-item'>Florencia Veron</li> 
            <li className='list-group-item'>Brian Jose Villalba</li> 
         </ul>
-    </div>
+      </Container>
   )
 }
 

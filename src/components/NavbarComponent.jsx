@@ -3,9 +3,9 @@ import { Container, Nav, Navbar } from 'react-bootstrap'
 
 const NavbarComponent = () => {
   return (
-    <Navbar bg="light" expand="lg">
-      <Container >
-        <Navbar.Brand href="/">PP1: Primer parcial</Navbar.Brand>
+    <Navbar bg="warning" expand="lg">
+      <Container>
+        <Navbar.Brand href="/">Práctica Profesional I<br/> Primer parcial</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

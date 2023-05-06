@@ -20,8 +20,8 @@ const Conversatorio1 = () => {
           position: "absolute",
           top: 0,
           left: 0,
-          width: "100%",
-          height: "100%",
+          width: "95%",
+          height: "95%",
         }}
         src="https://view.genial.ly/64543949087840001221b858"
         type="text/html"
@@ -29,8 +29,8 @@ const Conversatorio1 = () => {
         allowfullscreen="true"
         scrolling="yes"
         allownetworking="all"
-      ></iframe>{" "}
-    </div>{" "}
+      ></iframe>
+    </div>
   </div>
   )
 }
